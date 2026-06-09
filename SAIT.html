@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cyberpunk Showcase</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+
+<div class="noise"></div>
+<div class="grid-bg"></div>
+
+<header class="hero">
+  <h1>CYBERPUNK<br><span>DESIGN PORTFOLIO</span></h1>
+  <p>Neo-futuristic UI / Motion / Experiments</p>
+</header>
+
+<section class="filters">
+  <button class="active" data-filter="all">ALL WORKS</button>
+  <button data-filter="ui">UI SYSTEMS</button>
+  <button data-filter="web">WEB LANDING</button>
+  <button data-filter="mobile">MOBILE UX</button>
+</section>
+
+<main class="gallery">
+
+  <div class="card large" data-category="web">
+    <img src="https://picsum.photos/900/600?1"/>
+    <div class="overlay">
+      <h2>NEON LANDING PAGE</h2>
+      <p>Futuristic SaaS concept</p>
+    </div>
+  </div>
+
+  <div class="card" data-category="ui">
+    <img src="https://picsum.photos/600/800?2"/>
+    <div class="overlay">
+      <h2>HUD UI SYSTEM</h2>
+    </div>
+  </div>
+
+  <div class="card" data-category="mobile">
+    <img src="https://picsum.photos/600/700?3"/>
+    <div class="overlay">
+      <h2>MOBILE CONTROL PANEL</h2>
+    </div>
+  </div>
+
+  <div class="card" data-category="ui">
+    <img src="https://picsum.photos/600/900?4"/>
+    <div class="overlay">
+      <h2>DASHBOARD GRID</h2>
+    </div>
+  </div>
+
+</main>
+
+<div class="lightbox">
+  <span class="close">×</span>
+  <img/>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
